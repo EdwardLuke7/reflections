@@ -6,3 +6,6 @@ A: The staging area is the location that files that have been modified are kept 
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 A: The staging area allows you to commit a group of files with changes in them at a time. This means that even if multiple logical changes have been made to the files in the working directory since the previous commit, these changes can be commmited separately.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: If you need to make changes to some source code but want to maintain an unchanged version, such as when adding an experimental feature or want to keep a stable version available, you would make use of branches. Branches allow different series of commits to reflect different overall goals and integrate changes at a later point.
