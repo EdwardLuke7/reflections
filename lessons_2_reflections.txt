@@ -21,3 +21,5 @@ A: The major advantage is that it makes merging errors far less likely to occur,
 
 Q: When would you want to use a remote repository rather than keeping all your work local?
 A: Remote repositories are useful when you're interested in sharing your work with others, particulary for the purpose of collaborating.
+
+TEST
