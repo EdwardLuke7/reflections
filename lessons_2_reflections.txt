@@ -18,3 +18,6 @@ A: The result of merging to branches is that changes that were made throughout t
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 A: The major advantage is that it makes merging errors far less likely to occur, as all conflicts must be reviewed and resolved by a human. The major disadvantage, however, is that it requires more work for a human to do than could be achieved by using an AI to guess at the correct resolution.
+
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: Remote repositories are useful when you're interested in sharing your work with others, particulary for the purpose of collaborating.
