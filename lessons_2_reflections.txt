@@ -9,3 +9,12 @@ A: The staging area allows you to commit a group of files with changes in them a
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: If you need to make changes to some source code but want to maintain an unchanged version, such as when adding an experimental feature or want to keep a stable version available, you would make use of branches. Branches allow different series of commits to reflect different overall goals and integrate changes at a later point.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: They allow you to quickly see where source code has diverged from a commit and the parents of each commit from the current branch heads.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: The result of merging to branches is that changes that were made throughout the commits in each branch are incorporated into a single branch. This is easily represented diagramatically by lines coming from the most recent commit on each branch and meeting at one new commit that represents the new head of the branch that was being merged into.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: The major advantage is that it makes merging errors far less likely to occur, as all conflicts must be reviewed and resolved by a human. The major disadvantage, however, is that it requires more work for a human to do than could be achieved by using an AI to guess at the correct resolution.
